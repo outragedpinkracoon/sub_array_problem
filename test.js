@@ -27,21 +27,21 @@ describe( "permutations", function(){
 });
 
 describe( "highest sum", function(){
-  // it("should work on 3 items",function(){
-  //    assert.equal(f.highestSum([[1],[1,2],[1,2,3]]),6);
-  // });
+  it("should work on 3 items",function(){
+     assert.equal(f.highestSum([[1],[1,2],[1,2,3]]),6);
+  });
 
-  // it("should work on negative items",function(){
-  //    assert.equal(f.highestSum([[-1],[-1,-2],[-1,-2,-3]]),-1);
-  // });
+  it("should work on negative items",function(){
+     assert.equal(f.highestSum([[-1],[-1,-2],[-1,-2,-3]]),-1);
+  });
 
-  // it("should work on 1 item",function(){
-  //    assert.equal(f.highestSum([[1]]),1);
-  // });
+  it("should work on 1 item",function(){
+     assert.equal(f.highestSum([[1]]),1);
+  });
 
-  // it("should work on empty array",function(){
-  //    assert.equal(f.highestSum([]),0);
-  // });
+  it("should work on empty array",function(){
+     assert.equal(f.highestSum([]),0);
+  });
 });
 
 describe( "maxSequence", function(){
